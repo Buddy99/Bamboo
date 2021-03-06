@@ -4,6 +4,9 @@
 #include "Core.h"
 #include "spdlog/spdlog.h"
 
+// Abstraction Layer (The game calls my logger functions which then call the logger [the game can't call the logger directly])
+// If I want to change the logger, I only have to change my logger functions
+
 namespace Hazel 
 {
 	class HAZEL_API Log

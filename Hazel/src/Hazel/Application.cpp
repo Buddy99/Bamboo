@@ -14,6 +14,6 @@ namespace Hazel
 
 	void Application::Run()
 	{
-		while (true);
+		while (true);	// Endless Loop to keep the engine running
 	}
 }
