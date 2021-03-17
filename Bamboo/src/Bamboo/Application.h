@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace Hazel
+namespace Bamboo
 {
-	class HAZEL_API Application
+	class BAMBOO_API Application
 	{
 	public:
 		Application();

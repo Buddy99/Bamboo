@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace Hazel
+namespace Bamboo
 {
 	Application::Application()
 	{

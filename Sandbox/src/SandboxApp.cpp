@@ -1,8 +1,8 @@
-#include <Hazel.h>
+#include <Bamboo.h>
 
 // Important note: the sandbox project needs to be set as Startup project, so that the build order is correct
 
-class Sandbox : public Hazel::Application
+class Sandbox : public Bamboo::Application
 {
 public:
 	Sandbox()
@@ -16,7 +16,7 @@ public:
 	}
 };
 
-Hazel::Application* Hazel::CreateApplication()
+Bamboo::Application* Bamboo::CreateApplication()
 {
 	return new Sandbox();
 }
