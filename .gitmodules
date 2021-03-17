@@ -1,3 +1,0 @@
-[submodule "Bamboo/vendor/spdlog"]
-	path = Bamboo/vendor/spdlog
-	url = https://github.com/gabime/spdlog
