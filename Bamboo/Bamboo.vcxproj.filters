@@ -16,7 +16,13 @@
     <ClInclude Include="src\Bamboo\EntryPoint.h">
       <Filter>Bamboo</Filter>
     </ClInclude>
+    <ClInclude Include="src\Bamboo\GUI.h">
+      <Filter>Bamboo</Filter>
+    </ClInclude>
     <ClInclude Include="src\Bamboo\Log.h">
+      <Filter>Bamboo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bamboo\Timing.h">
       <Filter>Bamboo</Filter>
     </ClInclude>
   </ItemGroup>
@@ -24,7 +30,13 @@
     <ClCompile Include="src\Bamboo\Application.cpp">
       <Filter>Bamboo</Filter>
     </ClCompile>
+    <ClCompile Include="src\Bamboo\GUI.cpp">
+      <Filter>Bamboo</Filter>
+    </ClCompile>
     <ClCompile Include="src\Bamboo\Log.cpp">
+      <Filter>Bamboo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bamboo\Timing.cpp">
       <Filter>Bamboo</Filter>
     </ClCompile>
   </ItemGroup>
